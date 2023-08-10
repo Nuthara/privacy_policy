@@ -202,26 +202,6 @@ class _PrivacyPolicyState extends State<PrivacyPolicy> {
               ),
             ),
             const SizedBox(height: 16),
-            // DropdownButton<String>(
-            //   value: selectedSection,
-            //   onChanged: (newValue) {
-            //     setState(() {
-            //       selectedSection = newValue!;
-            //     });
-            //   },
-            //   items: [
-            //     'How We Use Your Information',
-            //     'Information Sharing',
-            //     'Data Security',
-
-            //     // ... Add other sections here ...
-            //   ].map<DropdownMenuItem<String>>((String value) {
-            //     return DropdownMenuItem<String>(
-            //       value: value,
-            //       child: Text(value),
-            //     );
-            //   }).toList(),
-            // ),
           ],
         ),
       ),
